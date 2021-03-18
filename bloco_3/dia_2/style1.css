@@ -1,0 +1,10 @@
+  h1 {
+    size: 65px;
+    color: orange;
+  }
+  #fav-color {
+    background-color: lightcoral;
+  }
+  .style1 {
+    background-color: lightpink;
+  }
