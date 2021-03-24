@@ -1,0 +1,34 @@
+* {
+    margin: 0 auto;
+    font-family: helvetica;
+}
+body {}
+
+header {
+    background-color: rgb(233, 17, 100);
+    color: whitesmoke;
+    text-align: center;
+    height: 60px;
+    padding-top: 20px;
+}
+
+nav {
+    background-color: rgb(133, 51, 228);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 40px;
+    padding-top: 20px;
+}
+
+nav li {
+    display: inline-block;
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 0 100px;
+}
+
+nav li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
