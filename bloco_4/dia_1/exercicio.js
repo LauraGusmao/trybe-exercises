@@ -56,4 +56,48 @@ if (ang1 < 0 || ang2 < 0 || ang3 < 0) {
 }
 
 // Evercício 6
+let chessPiece = 'Knight'
 
+switch (chessPiece.toLowerCase()) {
+  case 'king':
+    console.log('Rei: uma casa para qualquer direção.');
+    break;
+  case 'queen':
+    console.log('Rainha: quantas casas quiser para qualquer direção.');
+    break;
+  case 'bishop':
+    console.log('Bispo: quantas casas quiser diagonalmente.');
+    break;
+  case 'knight':
+    console.log('Cavalo: em forma de "L".');
+    break;
+  case 'rook':
+    console.log('Torre: quantas casas quiser horizontal e verticalmente.');
+    break;
+  case 'pawn':
+    console.log('Peão: uma casa para frente. Na primeira jogada pode duas casas.');
+    break;
+  default:
+    console.log('Erro.')
+}
+
+// Exercício 7
+let grade = -1
+
+if (grade < 0 || grade > 100) {
+  console.log('error');
+} else if (grade >= 90) {
+  console.log('A');
+} else if (grade >= 80) {
+  console.log('B');
+} else if (grade >= 70) {
+  console.log('C');
+} else if (grade >= 60) {
+  console.log('D');
+} else if (grade >= 50) {
+  console.log('E');
+} else {
+  console.log('F');
+}
+
+// Exercício 8
