@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Formulário</title>
+</head>
+<body>
+  <header class="section">
+    <h1 class="title has-text-centered">Cadastro de Currículo</h1>
+  </header>
+  <section class="section" id="form-container">
+    <form action="" method="GET">
+      <h2 class="subtitle is-4">Dados Pessoais:</h2>
+      <div class="field">
+        <label class="label" for="full-name">Nome</label>
+        <div class="control">
+          <input class="input" type="text" name="full-name" id="full-name" required maxlength="40">
+        </div>
+      </div>
+      <div class="field">
+        <label class="label" for="email">E-mail</label>
+        <div class="control">
+          <input class="input" type="email" name="email" id="email" required maxlength="50">
+        </div>
+      </div>
+      <div class="field">
+        <label class="label" for="cpf">CPF</label>
+        <div class="control">
+          <input class="input" type="text" name="cpf" id="cpf" required maxlength="11">
+        </div>
+      </div>
+      <div class="field">
+        <label class="label" for="address">Endereço</label>
+        <div class="control">
+          <input class="input" type="text" name="address" id="address" required maxlength="200">
+        </div>
+      </div>
+      <div class="field">
+        <label class="label" for="city">Cidade</label>
+        <div class="control">
+            <input class="input" type="text" name="city" id="city" required maxlength="28">
+        </div>       
+      </div>
+      <div class="field">
+        <label class="label" for="state">Estado</label>
+        <div class="control">
+          <div class="select">
+            <select name="state" id="state" value="" required></select>
+          </div>
+        </div>        
+      </div>
+      <div class="field">
+        <div class="control">
+          <label class="label" for="home-type">Tipo</label>
+          <label class="radio" for="house">
+            <input type="radio" name="home-type" id="house" value="house" required>
+            Casa
+          </label>
+          <label class="radio" for="apart">
+            <input type="radio" name="home-type" id="apart" value="apart" required>
+            Apartamento
+          </label>
+        </div>        
+      </div>
+      <br>
+      <h2 class="subtitle is-4">Experiências Anteriores:</h2>
+      <div class="field">
+        <label class="label" for="resume">Resumo do currículo</label>
+        <div class="control">
+          <textarea class="textarea" name="resume" id="" cols="60" rows="10" required maxlength="1000"></textarea>
+        </div>
+      </div>
+      <div class="field">
+        <label class="label" for="position">Cargo</label>
+        <div class="control">
+          <input class="input" type="text" name="position" id="position" required maxlength="40">
+        </div>      
+      </div>
+      <div class="field">
+        <label class="label" for="description">Descrição do cargo</label>
+        <div class="control">
+          <input class="input" type="text" name="description" id="description" required maxlength="500">
+        </div>
+      </div>
+      <div class="field">
+        <label class="label" for="date">Data de início</label>
+        <div class="control">
+          <input class="input" type="text" name="date" id="date" placeholder="DD/MM/AAAA" required maxlength="10">
+        </div>      
+      </div>
+      <div class="field is-grouped">
+        <div class="control">
+          <button class="button is-link" type="submit" id="submit-button">Enviar</button>
+        </div>
+        <div class="control">
+          <button class="button is-link is-light" type="reset" id="clear-button">Limpar</button>
+        </div>
+      </div> 
+    </form>
+  </section>
+  
+  <section //class="form-data"// >
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
