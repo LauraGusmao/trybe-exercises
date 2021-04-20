@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
   <link rel="stylesheet" href="style.css">
   <title>Formulário</title>
 </head>
@@ -18,38 +19,38 @@
       <div class="field">
         <label class="label" for="full-name">Nome</label>
         <div class="control">
-          <input class="input" type="text" name="full-name" id="full-name" required maxlength="40">
+          <input autocomplete="off" class="input" data-validate-field="name" type="text" name="full-name" id="full-name" required maxlength="40">
         </div>
       </div>
       <div class="field">
         <label class="label" for="email">E-mail</label>
         <div class="control">
-          <input class="input" type="email" name="email" id="email" required maxlength="50">
+          <input autocomplete="off" class="input" data-validate-field="email" type="email" name="email" id="email" required maxlength="50">
         </div>
       </div>
       <div class="field">
         <label class="label" for="cpf">CPF</label>
         <div class="control">
-          <input class="input" type="text" name="cpf" id="cpf" required maxlength="11">
+          <input autocomplete="off" class="input" data-validate-field="cpf" type="text" name="cpf" id="cpf" required maxlength="11">
         </div>
       </div>
       <div class="field">
         <label class="label" for="address">Endereço</label>
         <div class="control">
-          <input class="input" type="text" name="address" id="address" required maxlength="200">
+          <input autocomplete="off" class="input" data-validate-field="address" type="text" name="address" id="address" required maxlength="200">
         </div>
       </div>
       <div class="field">
         <label class="label" for="city">Cidade</label>
         <div class="control">
-            <input class="input" type="text" name="city" id="city" required maxlength="28">
+            <input autocomplete="off" class="input" data-validate-field="city" type="text" name="city" id="city" required maxlength="28">
         </div>       
       </div>
       <div class="field">
         <label class="label" for="state">Estado</label>
         <div class="control">
           <div class="select">
-            <select name="state" id="state" value="" required></select>
+            <select name="state" data-validate-field="state" id="state" value="" required></select>
           </div>
         </div>        
       </div>
@@ -57,11 +58,11 @@
         <div class="control">
           <label class="label" for="home-type">Tipo</label>
           <label class="radio" for="house">
-            <input type="radio" name="home-type" id="house" value="house" required>
+            <input type="radio" data-validate-field="radio" name="home-type" id="house" value="house" required>
             Casa
           </label>
           <label class="radio" for="apart">
-            <input type="radio" name="home-type" id="apart" value="apart" required>
+            <input type="radio" data-validate-field="radio" name="home-type" id="apart" value="apart" required>
             Apartamento
           </label>
         </div>        
@@ -71,25 +72,25 @@
       <div class="field">
         <label class="label" for="resume">Resumo do currículo</label>
         <div class="control">
-          <textarea class="textarea" name="resume" id="" cols="60" rows="10" required maxlength="1000"></textarea>
+          <textarea class="textarea" data-validate-field="text" name="resume" id="" cols="60" rows="10" required maxlength="1000"></textarea>
         </div>
       </div>
       <div class="field">
         <label class="label" for="position">Cargo</label>
         <div class="control">
-          <input class="input" type="text" name="position" id="position" required maxlength="40">
+          <input autocomplete="off" class="input" data-validate-field="position" type="text" name="position" id="position" required maxlength="40">
         </div>      
       </div>
       <div class="field">
         <label class="label" for="description">Descrição do cargo</label>
         <div class="control">
-          <input class="input" type="text" name="description" id="description" required maxlength="500">
+          <input autocomplete="off" class="input" data-validate-field="description" type="text" name="description" id="description" required maxlength="500">
         </div>
       </div>
       <div class="field">
-        <label class="label" for="date">Data de início</label>
+        <label class="label" for="datepicker">Data de início</label>
         <div class="control">
-          <input class="input" type="text" name="date" id="date" placeholder="DD/MM/AAAA" required maxlength="10">
+          <input autocomplete="off" class="input" data-validate-field="date" type="text" name="date" id="datepicker" placeholder="DD/MM/AAAA" required>
         </div>      
       </div>
       <div class="field is-grouped">
@@ -102,9 +103,10 @@
       </div> 
     </form>
   </section>
-  
-  <section //class="form-data"// >
-  </section>
+  <section class="form-data"></section>
+  <script src="moment.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+  <script src="node_modules/just-validate/dist/js/just-validate.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

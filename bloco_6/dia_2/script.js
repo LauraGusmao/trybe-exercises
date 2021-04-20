@@ -9,51 +9,117 @@ function addStatesOptions() {
 }
 addStatesOptions();
 
-// Para validar a data se nao estivesse usando o tipo de input "type=date":
-// indexOf() => o index do string dentro do parenteses;
-// substr(start, length) => extrai valores da string comecando pelo index de 'start' com o tamanho 'length;
-
-function validateData(date) {
-  if (date.indexOf('/') === 2 || date.indexOf('/') === 5) {
-    const day = date.substr(0, 2);
-    const month = date.substr(3, 2);
-    const year = date.substr(6, 4);
-    if ((day > 0 && day <= 31) && (month > 0 && month <= 12) && (year >= 0 && year.length === 4)) {
-      return true;
-    }
+const picker = new Pikaday({
+  field: document.getElementById('datepicker'),
+  format: 'D/M/YYYY',
+  toString(date, format) {
+    // you should do formatting based on the passed format,
+    // but we will just return 'D/M/YYYY' for simplicity
+    const day = date.getDate();
+    const month = date.getMonth() + 1;
+    const year = date.getFullYear();
+    return `${day}/${month}/${year}`;
+  },
+  parse(dateString, format) {
+    // dateString is the result of `toString` method
+    const parts = dateString.split('/');
+    const day = parseInt(parts[0], 10);
+    const month = parseInt(parts[1], 10) - 1;
+    const year = parseInt(parts[2], 10);
+    return new Date(year, month, day);
   }
-  return false;
-}
+});
 
-function checkData() {
-  const inputDate = document.querySelector('#date');
-  let dateValue = inputDate.value;
-  const userDate = validateData(dateValue);
-  if (!userDate && dateValue.length) {
-    inputDate.value = '';
-    alert('Data inválida');
-    return false;
-  }
-  return userDate;
-}
-
-function stop(event) {
-  event.preventDefault();
-  const formElements = document.querySelectorAll('input');
-  for (let index = 0; index < formElements.length; index += 1) {
-    if (formElements[index].type === 'radio' && !formElements[index].checked) {
-      continue;
+new JustValidate('.js-form', {
+  rules: {
+    name: {
+      required: true,
+      minLength: 3,
+      maxLength: 40
+    },
+    email: {
+      required: true,
+      email: true,
+      maxLength: 50
+    },
+    cpf: {
+      required: true,
+      maxLength: 11
+    },
+    address: {
+      required: true,
+      maxLength: 200
+    },
+    city: {
+      required: true,
+      maxLength: 28
+    },
+    state: {
+      required: true,
+    },
+    radio: {
+      required: true,
+    },
+    text: {
+      required: true,
+      maxLength: 1000
+    },
+    position: {
+      required: true,
+      maxLength: 40
+    },
+    description: {
+      required: true,
+      maxLength: 500
+    },
+    date: {
+      required: true,
     }
-    const userInput = formElements[index].value;
-    const dataUser = document.querySelector('.form-data');
-    if (checkData() !== false) {
-      const divNew = document.createElement('div');
-      divNew.className = 'div-resume';
-      divNew.innerHTML = userInput;
-      dataUser.appendChild(divNew);
+  },
+  messages: {
+    name: {
+      required: 'O campo de nome é obrigatório.',
+      maxLength: 'O limite é de 40 caracteres.'
+    },
+    email: {
+      required: 'O campo de email é obrigatório.',
+      email: 'O email digitado não é válido.',
+      maxLength: 'O limite é de 50 caracteres.'
+    },
+    cpf: {
+      required: 'O campo de CPF é obrigatório.',
+      maxLength: 'O limite é de 11 caracteres.'
+    },
+    address: {
+      required: 'O campo endereço é obrigatório.',
+      maxLength: 'O limite é de 200 caracteres.'
+    },
+    city: {
+      required: 'O campo cidade é obrigatório.',
+      maxLength: 'O limite é de 28 caracteres.'
+    },
+    state: {
+      required: 'O campo estado é obrigatório.',
+    },
+    radio: {
+      required: 'A escolha de um item é obrigatória.',
+    },
+    text: {
+      required: 'Este campo é obrigatório.',
+      maxLength: 'O limite é de 1000 caracteres.'
+    },
+    position: {
+      required: 'Este campo é obrigatório.',
+      maxLength: 'O limite é de 40 caracteres.'
+    },
+    description: {
+      required: 'Este campo é obrigatório.',
+      maxLength: 'O limite é de 500 caracteres.'
+    },
+    date: {
+      required: 'Este campo é obrigatório.',
     }
-  }
-}
-
-const stopSubmit = document.querySelector('#submit-button')
-stopSubmit.addEventListener('click', stop);
+  },
+  submitHandler: function (form, values) {
+    console.log(form, values);
+  }});
