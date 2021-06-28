@@ -103,25 +103,25 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 12-1: _Components com estado e eventos_
 - [x] 12-2: _Formulários no React_
-- [x] 12-3: _[Projeto - Movie Cards Library Stateful]()_
+- [x] 12-3: _[Projeto - Movie Cards Library Stateful](https://github.com/tryber/sd-011-project-movie-cards-library-stateful/pull/69)_
 
 ##### Bloco 13: Ciclo da Vida de Componentes e React Router
 
-- [ ] 13-1: _Ciclo de vida de componentes em React_
-- [ ] 13-2: _React Router_
-- [ ] 13-3: _[Projeto - Movie Cards Library CRUD]()_
+- [x] 13-1: _Ciclo de vida de componentes em React_
+- [x] 13-2: _React Router_
+- [x] 13-3: _[Projeto - Movie Cards Library CRUD](https://github.com/tryber/sd-011-project-movie-card-library-crud/pull/33)_
 
 ##### Bloco 14: Metodologias Ágeis
 
-- [ ] 14-1: _Metodologias ágeis_
-- [ ] 14-2: _[Projeto - Frontend Online Store]()_
+- [x] 14-1: _Metodologias ágeis_
+- [x] 14-2: _[Projeto - Frontend Online Store]()_
 
 ##### Bloco 15: Testes Automatizados com React Testing Library
 
-- [ ] 15-1: _RTL - Primeiros passos_
-- [ ] 15-2: _RTL - Mocks e Inputs_
-- [ ] 15-3: _Testando React Router_
-- [ ] 15-4: _[Projeto - Testes em React]()_
+- [x] 15-1: _RTL - Primeiros passos_
+- [x] 15-2: _RTL - Mocks e Inputs_
+- [x] 15-3: _Testando React Router_
+- [x] 15-4: _[Projeto - Testes em React](https://github.com/tryber/sd-011-project-react-testing-library/pull/58)_
 
 ##### Bloco 16: IGerenciamento de Estatdo com Redux
 
