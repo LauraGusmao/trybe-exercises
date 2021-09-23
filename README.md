@@ -47,9 +47,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 5-4: _JavaScript - Web Storage_
 - [x] 5-5: _[Projeto - Arte com Pixels](https://github.com/tryber/sd-011-project-pixels-art/pull/74)_
 - [x] 5-6: _[Projeto - Lista de tarefas](https://github.com/tryber/sd-011-project-todo-list/pull/102)_
-- [ ] 5-7: _[Projeto Bônus - Meme Generator]()_
+<!-- - [ ] 5-7: _[Projeto Bônus - Meme Generator]()_
 - [ ] 5-7: _[Projeto Bônus - Adivinhe a Cor]()_
-- [ ] 5-7: _[Projeto Bônus - Carta Misteriosa]()_
+- [ ] 5-7: _[Projeto Bônus - Carta Misteriosa]()_ -->
 
 ##### Bloco 6: HTML & CSS: Forms, Flexbox e Responsivo
 
@@ -114,7 +114,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 14: Metodologias Ágeis
 
 - [x] 14-1: _Metodologias ágeis_
-- [x] 14-2: _[Projeto - Frontend Online Store]()_
+- [x] 14-2: _[Projeto - Frontend Online Store](https://github.com/tryber/sd-011-project-frontend-online-store/pull/667)_
 
 ##### Bloco 15: Testes Automatizados com React Testing Library
 
@@ -125,78 +125,78 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 16: IGerenciamento de Estatdo com Redux
 
-- [ ] 16-1: _Introdução ao Redux - O estatdo global da aplicação_
-- [ ] 16-2: _Usando o Redux no React_
-- [ ] 16-3: _Usando o Redux no React - Prática_
-- [ ] 16-4: _Usando o Redux no React - Actions assíncronas_
-- [ ] 16-5: _Testes em React-Redux_
-- [ ] 16-6: _[Projeto - Trybe Wallet]()_
+- [x] 16-1: _Introdução ao Redux - O estatdo global da aplicação_
+- [x] 16-2: _Usando o Redux no React_
+- [x] 16-3: _Usando o Redux no React - Prática_
+- [x] 16-4: _Usando o Redux no React - Actions assíncronas_
+- [x] 16-5: _Testes em React-Redux_
+- [x] 16-6: _[Projeto - Trybe Wallet](https://github.com/tryber/sd-011-project-trybewallet/pull/87)_
 
 ##### Bloco 17: Projeto React
 
-- [ ] 17-1: _[Projeto - Jogo de Trivia]()_
+- [x] 17-1: _[Projeto - Jogo de Trivia](https://github.com/tryber/sd-011-project-trivia-react-redux/pull/126)_
 
 ##### Bloco 18: Context API e React Hooks
 
-- [ ] 18-1: _Context API do React_
-- [ ] 18-2: _React Hooks - useState e useContext_
-- [ ] 18-3: _React Hooks - useEffect e Hooks customizados_
-- [ ] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+- [x] 18-1: _Context API do React_
+- [x] 18-2: _React Hooks - useState e useContext_
+- [x] 18-3: _React Hooks - useEffect e Hooks customizados_
+- [x] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks](https://github.com/tryber/sd-011-project-starwars-planets-search/pull/59)_
 
 ##### Bloco 19: Projeto Final de Front-end
 
-- [ ] 19-1: _[Projeto - App de Receitas]()_
+- [x] 19-1: _[Projeto - App de Receitas](https://github.com/tryber/sd-011-project-recipes-app/pull/30)_
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
 ##### Bloco 20: Introdução à SQL
 
-- [ ] 20-1: _Introdução - Back-end_
-- [ ] 20-1: _Introdução - Banco de dados relacionais_
-- [ ] 20-1: _Banco de dados SQL_
-- [ ] 20-2: _Encontrando dados em em banco de dados_
-- [ ] 20-3: _Filtrando dados de forma específica_
-- [ ] 20-4: _Manipulando tabelas_
-- [ ] 20-5: _[Projeto - All For One]()_
+- [x] 20-1: _Introdução - Back-end_
+- [x] 20-1: _Introdução - Banco de dados relacionais_
+- [x] 20-1: _Banco de dados SQL_
+- [x] 20-2: _Encontrando dados em em banco de dados_
+- [x] 20-3: _Filtrando dados de forma específica_
+- [x] 20-4: _Manipulando tabelas_
+- [x] 20-5: _[Projeto - All For One](https://github.com/tryber/sd-011-project-mysql-all-for-one/pull/43)_
 
 ##### Bloco 21: Funções SQL, Joins e Subqueries
 
-- [ ] 21-1: _Funções mais usadas no SQL_
-- [ ] 21-2: _Descomplicando JOINs, UNIONs e Subqueries_
-- [ ] 21-3: _Stored Routines e Stored Functions_
-- [ ] 21-4: _[Projeto - Vocabulary Booster]()_
+- [x] 21-1: _Funções mais usadas no SQL_
+- [X] 21-2: _Descomplicando JOINs, UNIONs e Subqueries_
+- [X] 21-3: _Stored Routines e Stored Functions_
+- [X] 21-4: _[Projeto - Vocabulary Booster](https://github.com/tryber/sd-011-mysql-vocabulary-booster/pull/38)_
 
 ##### Bloco 22: Normalização e Modelagem de Bancos de Dados
 
-- [ ] 22-1: _Transformando ideias em um modelo de banco de dados_
-- [ ] 22-2: _Normalização, Formas Normais e Dumps_
-- [ ] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- [ ] 22-3: _[Projeto - One For All]()_
+- [X] 22-1: _Transformando ideias em um modelo de banco de dados_
+- [X] 22-2: _Normalização, Formas Normais e Dumps_
+- [X] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
+- [X] 22-3: _[Projeto - One For All](https://github.com/tryber/sd-011-mysql-one-for-all/pull/62)_
 
 ##### Bloco 23: Introdução ao MongoDB
 
-- [ ] 23-1: _Introdução - NoSQL_
-- [ ] 23-1: _MongoDB - Introdução_
-- [ ] 23-2: _Filter Operators_
-- [ ] 23-3: _[Projeto - Data Flights]()_
+- [X] 23-1: _Introdução - NoSQL_
+- [X] 23-1: _MongoDB - Introdução_
+- [X] 23-2: _Filter Operators_
+- [X] 23-3: _[Projeto - Data Flights](https://github.com/tryber/sd-011-mongodb-dataflights/pull/129)_
 
 ##### Bloco 24: MongoDB: Updates Simples e Complexos
 
-- [ ] 24-1: _Updates Simples_
-- [ ] 24-2: _Updates Complexos - Arrays - Parte 1_
-- [ ] 24-3: _Updates Complexos - Arrays - Parte 2_
-- [ ] 24-4: _[Projeto - Commerce]()_
+- [X] 24-1: _Updates Simples_
+- [X] 24-2: _Updates Complexos - Arrays - Parte 1_
+- [X] 24-3: _Updates Complexos - Arrays - Parte 2_
+- [X] 24-4: _[Projeto - Commerce](https://github.com/tryber/sd-011-mongodb-commerce/pull/23)_
 
 ##### Bloco 25: Aggregation Framework
 
-- [ ] 25-1: _Aggregation Framework - Part 1_
-- [ ] 25-2: _Aggregation Framework - Part 2_
-- [ ] 25-3: _[Projeto - Aggregations]()_
+- [X] 25-1: _Aggregation Framework - Part 1_
+- [X] 25-2: _Aggregation Framework - Part 2_
+- [X] 25-3: _[Projeto - Aggregations](https://github.com/tryber/sd-011-mongodb-aggregations/pull/25)_
 
 ##### Bloco 26: Introdução ao Desenvolvimento Web com NodeJS
 
-- [ ] 26-1: _Introdução - NodeJS_
-- [ ] 26-1: _Introdução - Node.js_
+- [X] 26-1: _Introdução - NodeJS_
+- [X] 26-1: _Introdução - Node.js_
 - [ ] 26-2: _NodeJS - Fluxo assíncrono_
 - [ ] 26-3: _NodeJS - Arquitetura_
 - [ ] 26-4: _Express: HTTP com Node.js_
