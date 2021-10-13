@@ -1,0 +1,1 @@
+Olá meu nome é Laura e sou estudante de Desenvolvimento Web. No momento estou aprendendo NodeJS.
