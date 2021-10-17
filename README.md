@@ -197,19 +197,20 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [X] 26-1: _Introdução - NodeJS_
 - [X] 26-1: _Introdução - Node.js_
-- [ ] 26-2: _NodeJS - Fluxo assíncrono_
-- [ ] 26-3: _NodeJS - Arquitetura_
-- [ ] 26-4: _Express: HTTP com Node.js_
-- [ ] 26-5: _Preticando Express_
-- [ ] 26-4: _[Projeto - Crush Manager]()_
+- [X] 26-2: _NodeJS - Fluxo assíncrono_
+- [X] 26-3: _NodeJS - Arquitetura_
+- [X] 26-4: _Express: HTTP com Node.js_
+- [X] 26-5: _Preticando Express_
+- [X] 26-6: _[Projeto - Talker Manager](https://github.com/tryber/sd-011-project-talker-manager/pull/43)_
 
 ##### Bloco 27: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
 
-- [ ] 27-1: _Introdução - Arquitetura de Software_
-- [ ] 27-1: _Arquitetura de Software - Camada de Model_
-- [ ] 27-2: _Arquitetura de Software - Camada de Controller e Service_
-- [ ] 27-3: _Arquitetura web - Rest e Restful_
-- [ ] 27-3: _[Projeto - Store Manager]()_
+- [X] 27-1: _Introdução - Arquitetura de Software_
+- [X] 27-1: _Arquitetura de Software - Camada de Model_
+- [X] 27-2: _Arquitetura de Software - Camada de Controller e Service_
+- [ ] 27-3: _Arquitetura Web - Rest e Restful_
+- [ ] 27-4: _Arquitetura de Software - Testando as camadas_
+- [ ] 27-5: _[Projeto - Store Manager]()_
 
 ##### Bloco 28: Autenticação e Upload de Arquivos
 
