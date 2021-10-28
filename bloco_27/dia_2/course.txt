@@ -1,0 +1,20 @@
+As camadas de Controller e Service
+
+As camadas de Controllers e de Services podem ser (e geralmente são) utilizadas de forma complementar à camada de Model.
+São responsáveis por, respectivamente, receber e tratar os dados da requisição, e aplicar as regras de negócio da aplicação antes que qualquer comunicação com o banco seja realizada. Dessa forma, o Model precisa fazer menos coisas, o que quer dizer que temos uma arquitetura que delimita mais as responsabilidades de cada camada, de forma que, caso precisemos alterar uma parte do código, a quantidade de lugares em que precisaremos mexer é menor, visto que camada tem sua responsabilidade bem delimitada.
+
+Controllers
+
+A camada dos controllers é a primeira camada numa API. É nela onde os dados da requisição serão recebidos e tratados, pra depois serem passados para as próximas camadas. O principal componente de uma camada de controllers são os middlewares.
+O controller recebe as requisições e então consulta o service , enviando na resposta aquilo que o service retornar, que pode ser uma mensagem de erro, em caso de falha, ou as informações pedidas, em caso de sucesso.
+Ao se comunicar com o service , o controller deve passar apenas as informações necessárias, sendo assim não é uma boa prática passar toda a request para o service , as informações devem ser extraídas e então apenas o que for necessário para determinada ação deve ser transferido.
+
+Services
+
+É comum vermos uma nova camada sendo adicionada em projetos que exigem uma lógica de negócio um pouco mais complexa e, principalmente, em APIs.
+Essa camada é a Camada dos Services . Ela fica situada entre as camadas de controller e model e é responsável pela nossa lógica de negócio. O modelo, então, passa a ser responsável somente pelo acesso a dados.
+Uma boa camada de serviço:
+- Deve centralizar acesso a dados e funções externas;
+- Deve abstrair lógica de negócio complexa do seu modelo;
+- Não deve ter nenhum tipo de informação sobre o acesso a camada de dados. Exemplo: não ter nenhuma query SQL;
+- Não deve receber nada relacionado ao HTTP, seja o request ou o response . O controller deve mandar apenas o necessário para o service.

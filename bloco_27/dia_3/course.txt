@@ -1,0 +1,68 @@
+REST:
+
+Representational State Transfer (REST), em português Transferência de Estado Representacional, é um estilo de
+arquitetura de software, controlado pelo W3C, que define um conjunto de restrições a serem usadas para a criação
+de APIs.
+
+Para o REST, uma aplicação é um conjunto de recursos que podem ter seu estado representado de alguma forma.
+Ao consumir esses recursos, você está transferindo as informações sobre esse estado para o cliente (uma
+requisição GET, por exemplo) ou fazendo uma alteração nele (um POST, PUT ou DELETE ). Daí o nome Transferência de
+Estado Representacional, ou seja, estamos transferindo uma representação do estado de algum recurso.
+
+Um recurso, em REST, é uma abstração da informação. Dito isso, qualquer coisa que possa ser nomeada pode ser um
+recurso.
+
+As 6 restrições para ser RESTful:
+
+A arquitetura REST define seis restrições, chamadas constraints, que devem ser respeitadas para que sua API seja
+RESTful.
+
+1 - Interface uniforme (Uniform Interface)
+A interface de comunicação entre seu servidor e seu cliente deve ser definida e seguida à risca, através de um
+padrão, para que ela se mantenha consistente. Dessa forma, essa "constraint", se seguida à risca, simplifica e
+desacopla a sua arquitetura.
+Essa interface inclui o endpoint, o tipo de retorno e o uso dos verbos HTTP.
+
+2 - Arquitetura cliente-servidor
+O princípio básico aqui é a separação de responsabilidades em duas partes. O cliente se preocupa com a exibição
+dos dados, experiência da pessoa usuária, etc. O servidor se preocupa com armazenamento e acesso dos dados, cache,
+log e por aí vai.
+Isso permite que as duas partes se desenvolvam de forma independente. Você pode trocar o cliente ou adicionar um
+novo sem mudar nada no servidor. Você pode mover o servidor para uma outra plataforma, escalá-lo etc. Pode até 
+mesmo mudar completamente sua arquitetura interna, desde que a API que você fornece para seus clientes não mude
+(endpoint, resposta etc.).
+
+3 - Sem estado (Stateless)
+Não manter estado significa que toda requisição deve conter todas as informações necessárias (ser autossuficiente)
+para nossa API realizar uma ação . Desse jeito, não podemos reutilizar nenhum contexto que está armazenado no
+servidor (uma variável, por exemplo).
+
+4 - Cacheable
+Cache é simplesmente um "depósito de informações". O exemplo mais próximo disso é quando seu navegador armazena
+imagens e arquivos para não precisar pedi-los para o servidor novamente toda vez que você revisitar uma página.
+Esse cache é feito no lado do cliente, no browser.
+O princípio aqui é que as respostas dadas pela nossa API devem dizer, explicitamente, se podem ou não ser 
+cacheadas e por quanto tempo. Com isso, evita-se que clientes forneçam respostas "velhas" ou inapropriadas.
+Uma camada de cache bem gerenciada pode reduzir ou eliminar iterações do lado do cliente, aumentando a
+escalabilidade e a performance da nossa API.
+
+5 - Sistema em camadas (Layered System)
+No caso do REST, essa divisão em camadas não tem nada a ver com a organização do nosso código diretamente. Esse
+princípio é sobre abstrair do cliente as camadas necessárias para responder a uma requisição.
+Não importa se voce tem uma "API A" que se comunica com a "API B" que se comunica com uma fila ou um arquivo num
+"local C", ou se consulta um banco de dados, ou se esse banco de dados é local ou está armazenado em outro lugar.
+Quem consome a API não precisa saber de onde essas coisas estão vindo. Só precisa receber a resposta esperada.
+
+6 - Código sob demanda (Code on Demand)
+Esse princípio consiste em dar a possibilidade de o nosso servidor enviar código (JavaScript, por exemplo) ao
+nosso cliente, onde será executado. Assim, você consegue customizar o comportamento do cliente.
+Um exemplo prático: enviar um "widget" para colocar na página um chat para que o cliente possa conversar com
+alguém.
+Você não precisa implementar código sob demanda para ser RESTful, logo esse item é considerado opcional.
+
+Ser ou não ser, eis a questão:
+
+Agora que vimos as restrições do REST, vale ressaltar: Você não precisa aplicar todas elas, a não ser que você
+realmente queira ser RESTful!
+Cenários diferentes exigem soluções diferentes. Em Software, nada é escrito em pedra. Os princípios podem ser
+quebrados, desde que a justificativa para tal seja plausível.

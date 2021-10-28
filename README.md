@@ -208,9 +208,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 27-1: _Introdução - Arquitetura de Software_
 - [X] 27-1: _Arquitetura de Software - Camada de Model_
 - [X] 27-2: _Arquitetura de Software - Camada de Controller e Service_
-- [ ] 27-3: _Arquitetura Web - Rest e Restful_
-- [ ] 27-4: _Arquitetura de Software - Testando as camadas_
-- [ ] 27-5: _[Projeto - Store Manager]()_
+- [X] 27-3: _Arquitetura Web - Rest e Restful_
+- [X] 27-4: _Arquitetura de Software - Testando as camadas_
+- [X] 27-5: _[Projeto - Store Manager](https://github.com/tryber/sd-011-store-manager/pull/125)_
 
 ##### Bloco 28: Autenticação e Upload de Arquivos
 
