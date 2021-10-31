@@ -195,12 +195,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 26: Introdução ao Desenvolvimento Web com NodeJS
 
-- [X] 26-1: _Introdução - NodeJS_
-- [X] 26-1: _Introdução - Node.js_
+- [X] 26-1: _Intro - NodeJS_
+- [X] 26-1: _NodeJS - Introdução_
 - [X] 26-2: _NodeJS - Fluxo assíncrono_
-- [X] 26-3: _NodeJS - Arquitetura_
+- [X] 26-3: _Testes com NodeJS_
 - [X] 26-4: _Express: HTTP com Node.js_
-- [X] 26-5: _Preticando Express_
+- [X] 26-5: _Express: Middlewares_
 - [X] 26-6: _[Projeto - Talker Manager](https://github.com/tryber/sd-011-project-talker-manager/pull/43)_
 
 ##### Bloco 27: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
@@ -214,9 +214,10 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 28: Autenticação e Upload de Arquivos
 
-- [ ] 28-1: _NodeJS - JWT - (JSON Web Token)_
-- [ ] 28-2: _NodeJS - Upload de arquivos com 'multer'_
-- [ ] 28-3: _[Projeto - Cookmaster]()_
+- [X] 28-1: _NodeJS - JWT - (JSON Web Token)_
+- [X] 28-2: _NodeJS - Upload de arquivos com 'multer'_
+- [X] 28-3: _NodeJS - Testando APIs com Testes de Integração_
+- [X] 28-4: _[Projeto - Cookmaster](https://github.com/tryber/sd-011-cookmaster/pull/97)_
 
 ##### Bloco 29: Deployment
 

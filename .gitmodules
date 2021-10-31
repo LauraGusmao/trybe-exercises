@@ -1,0 +1,3 @@
+[submodule "nodejs-jwt-base-project"]
+	path = nodejs-jwt-base-project
+	url = https://github.com/LauraGusmao/nodejs-jwt-base-project
