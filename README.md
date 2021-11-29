@@ -221,77 +221,72 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 29: Deployment
 
-- [ ] 29-1: _Introdução - Deploy_
-- [ ] 29-1: _Infraestrutura - Deploy com Heroku_
-- [ ] 29-2: _Deploy - Gerenciadores de processos_
-- [ ] 29-3: _[Projeto - Stranger Things]()_
+- [X] 29-1: _Introdução - Deploy_
+- [X] 29-1: _Infraestrutura - Deploy com Heroku_
+- [X] 29-2: _Deploy - Gerenciadores de processos_
+- [X] 29-3: _[Projeto - Stranger Things-Backend](https://github.com/tryber/sd-011-stranger-things-backend/pull/70)_
+- [X] 29-3: _[Projeto - Stranger Things-Frontend](https://github.com/tryber/sd-011-stranger-things-frontend/pull/66)_
 
-##### Bloco 30: Projeto
+##### Bloco 30: Arquitetura: SOLID e ORM
 
-- [ ] 30-1: _[Projeto - Trybeer]()_
+- [X] 30-1: _Arquitetura - Princípios SOLID_
+- [X] 30-2: _ORM - Interface da aplicação com o banco de dados_
+- [X] 30-3: _ORM - Associations_
+- [ ] 30-4: _[Projeto - API de Blogs](https://github.com/tryber/sd-011-project-blogs-api/pull/112)_
 
-##### Bloco 31: Arquitetura: SOLID e ORM
+##### Bloco 31: Sockets
 
-- [ ] 31-1: _Arquitetura - Princípios SOLID_
-- [ ] 31-2: _ORM - Interface da aplicação com o banco de dados_
-- [ ] 31-3: _ORM - Associations_
-- [ ] 31-4: _Boas práticas na escrita de testes_
-- [ ] 31-5: _[Projeto - API de Blogs]()_
+- [ ] 31-1: _Arquitetura de Software - Camada de View_
+- [ ] 31-2: _Sockets - TCP/UDP & NET_
+- [ ] 31-3: _Sockets - Socket.io_
+- [ ] 31-4: _Sockets - Praticando Socket.io_
+- [ ] 31-5: _[Projeto - Webchat]()_
 
-##### Bloco 32: Sockets
+##### Bloco 32: Projeto - App de Delivery
 
-- [ ] 32-1: _Arquitetura de Software - Camada de View_
-- [ ] 32-2: _Sockets - TCP/UDP & NET_
-- [ ] 32-3: _Sockets - Socket.io_
-- [ ] 32-4: _[Projeto - Webchat]()_
-
-##### Bloco 33: Projeto
-
-- [ ] 33-1: _[Projeto - Trybeer V2]()_
+- [ ] 32-1: _[Projeto - App de Delivery]()_
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
-##### Bloco 34: Arquitetura de Computadores e Rede
+##### Bloco 33: Introdução à Python
 
-- [ ] 34-1: _Introdução - Ciência da Computação_
-- [ ] 34-1: _Arquitetura de Computadores_
-- [ ] 34-2: _Arquitetura de redes_
-- [ ] 34-3: _Redes de computadores, ferramentas e seguranÃ§a_
-- [ ] 34-4: _[Projeto - Explorando os Protocolos]()_
+- [ ] 33-1: _Introdução - Ciência da Computação_
+- [ ] 33-2: _Aprendendo Python_
+- [ ] 33-3: _Entrada e saída de dados_
+- [ ] 33-4: _Testes_
+- [ ] 33-5: _[Projeto - Job Insights]()_
 
-##### Bloco 35: Introdução à Python e Raspagem de Dados da Web
+##### Bloco 34: Programação Orientada a Objects e Padrões de Projeto
 
-- [ ] 35-1: _Aprendendo Python_
-- [ ] 35-2: _Entrada e saída de dados_
+- [ ] 34-1: _Introdução à programação orientada a objetos_
+- [ ] 34-2: _Herança, Composição e Interfaces_
+- [ ] 34-3: _Padrões de projeto_
+- [ ] 34-4: _[Projeto - Relatórios de Estoque]()_
+
+##### Bloco 35: Redes e Raspagem de Dados
+
+- [ ] 35-1: _Arquitetura de redes_
+- [ ] 35-2: _Redes de computadores, ferramentas e segurança_
 - [ ] 35-3: _Raspagem de dados_
-- [ ] 35-4: _Testes_
-- [ ] 35-5: _[Projeto - Tech News]()_
+- [ ] 35-4: _[Projeto - Tech News]()_
 
-##### Bloco 36: Programação Orientada a Objects e Padrões de Projeto
+##### Bloco 36: Algoritmos
 
-- [ ] 36-1: _Introdução - Programação orientada a objetos_
-- [ ] 36-2: _Programação orientada a objetos na prática_
-- [ ] 36-3: _Padrões de projeto_
-- [ ] 36-4: _[Projeto - Relatórios de Estoque]()_
+- [ ] 36-1: _Complexidade de algoritmos_
+- [ ] 36-2: _Recursividade e estratégias para solução de problemas_
+- [ ] 36-3: _Algoritmos de ordenação e busca_
+- [ ] 36-4: _[Projeto - Algoritmos]()_
 
-##### Bloco 37: Algoritmos e Estruturas de Dados
+##### Bloco 37: Estrutura de Dados I: Hash e Set
 
-- [ ] 37-1: _Estrutura de Dados I - Arrays_
-- [ ] 37-2: _Estrutura de Dados I - Complexidade de algoritmos_
-- [ ] 37-3: _Recursividade e estratégias para solução de problemas_
-- [ ] 37-4: _Algoritmos de ordenação e busca_
-- [ ] 37-5: _[Projeto - Algoritmos]()_
+- [ ] 37-1: _Arquitetura de computadores_
+- [ ] 37-2: _Arrays_
+- [ ] 37-3: _Hash maps e Dict_
+- [ ] 37-4: _Set_
+- [ ] 37-5: _[Projeto - Restaurant Orders]()_
 
-##### Bloco 38: Estrutura de Dados: Hash e Set
+##### Bloco 38: Estrutura de Dados II: Pilhas, Filas e Listas
 
-- [ ] 38-1: _Estrutura de Dados II - Hash maps e Dict_
-- [ ] 38-2: _Estrutura de Dados II - Set_
-- [ ] 38-3: _[Projeto - Restaurant Orders]()_
-
-##### Bloco 39: Estrutura de Dados: Pilhas, Filas e Listas
-
-- [ ] 39-1: _Estrutura de Dados III - Pilhas_
-- [ ] 39-2: _Estrutura de Dados III - Deque_
-- [ ] 39-3: _Estrutura de Dados III - Nó e listas ligadas_
-- [ ] 39-4: _Estrutura de Dados III - Listas duplamente ligadas_
-- [ ] 39-5: _[Projeto - TING (Trybe Is Not Google)]()_
+- [ ] 38-1: _Nó e listas encadeadas_
+- [ ] 38-2: _Pilhas e filas_
+- [ ] 38-3: _[Projeto - TING (Trybe Is Not Google)]()_
